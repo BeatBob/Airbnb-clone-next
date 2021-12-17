@@ -1,4 +1,4 @@
-live demo : https://airbnb-clone-next-beatbob.vercel.app/
+live demo : airbnb-clone-next-brown.vercel.app
 
 # Next.js + Tailwind CSS Example
 
