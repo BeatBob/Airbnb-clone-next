@@ -31,6 +31,7 @@ export default function Home({ exploreData, cardsData }) {
               />
             ))}
           </div>
+          <div className="h-[2px] bg-gray-100 ml-2 w-auto mt-2" />
         </section>
 
         <section>
@@ -44,6 +45,7 @@ export default function Home({ exploreData, cardsData }) {
               <MediumCard key={img} img={img} title={title} />
             ))}
           </div>
+          <div className="h-[2px] bg-gray-100 w-auto mt-2" />
         </section>
 
         <LargeCard

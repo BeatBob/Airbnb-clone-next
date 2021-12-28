@@ -5,7 +5,7 @@ import { StarIcon } from "@heroicons/react/solid";
 function InfoCard({ img, description, location, title, star, price, total }) {
   return (
     <div
-      className="flex py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg 
+      className="flex py-7 px-2 pr-4 border-b cursor-pointer hover:scale-105 hover:shadow-lg 
     transition duration-200 ease-out first:border-t"
     >
       <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
@@ -23,7 +23,7 @@ function InfoCard({ img, description, location, title, star, price, total }) {
           <HeartIcon className="h-7 cursor-pointer" />
         </div>
 
-        <h4 className="text-xl">{title}</h4>
+        <h4 className="text-xl font-semibold">{title}</h4>
 
         <div className="border-b w-10 pt-2" />
 

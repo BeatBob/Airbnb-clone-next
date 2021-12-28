@@ -45,7 +45,7 @@ function Map({ searchResults }) {
             </p>
           </Marker>
 
-          {selectedLocation.long === result.long ? (
+          {selectedLocation.longitude === result.long ? (
             <Popup
               onClose={setSelectedLocation({})}
               closeOnClick={true}
